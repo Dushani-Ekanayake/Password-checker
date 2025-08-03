@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Password Strength Checker</h2>
+    <input type="password" id="password" placeholder="Enter your password...">
+    <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+    <div id="strengthMood"></div>
+    <div id="suggestion"></div>
+
+  
+    <div id="breachCard" class="breach-card hidden">
+      <h3>Password Breach Check</h3>
+      <p id="breachStatus">Checking...</p>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
