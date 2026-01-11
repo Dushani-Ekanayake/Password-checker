@@ -28,7 +28,7 @@ This project is a comprehensive password strength checker web application that p
 2. Open `index.html` in a modern browser.
 3. Enter a password to see strength evaluation, suggestions, and breach status.
 
-##screenshots
+screenshots
 <img width="1265" height="643" alt="image" src="https://github.com/user-attachments/assets/32c4647e-17b2-4bd5-bf39-b78ff05a6dd9" />
 
 
